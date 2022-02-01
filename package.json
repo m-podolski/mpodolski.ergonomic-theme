@@ -1,0 +1,41 @@
+{
+  "name": "mpodolski",
+  "displayName": "Malterial Ergonomic Theme Light",
+  "description": "A theme focused on ergonomics",
+  "version": "0.0.1",
+  "engines": {
+    "vscode": "^1.63.0"
+  },
+  "categories": [
+    "Themes"
+  ],
+  "contributes": {
+    "themes": [
+      {
+        "label": "[ET] Community-Material-Theme-Lighter",
+        "uiTheme": "vs",
+        "path": "./themes/[ET] Community-Material-Theme-Lighter.json"
+      },
+      {
+        "label": "[ET] From Default",
+        "uiTheme": "vs",
+        "path": "./themes/[ET] From Default.json"
+      },
+      {
+        "label": "[ET] From Material Settings",
+        "uiTheme": "vs",
+        "path": "./themes/[ET] From Material Settings.json"
+      },
+      {
+        "label": "[ET] From Material without settings",
+        "uiTheme": "vs",
+        "path": "./themes/[ET] From Material without settings.json"
+      },
+      {
+        "label": "[ET] From Settings",
+        "uiTheme": "vs",
+        "path": "./themes/[ET] From Settings.json"
+      }
+    ]
+  }
+}

@@ -1,0 +1,11 @@
+{
+  "title": "Colours",
+  "description": "Defines semantic colour scheme. Main purpose is to enable color pickers on arbitrary properties",
+  "type": "object",
+  "patternProperties": {
+    ".+": {
+      "type": "string",
+      "format": "color"
+    }
+  }
+}
