@@ -8,7 +8,7 @@ export function handleServerErrors(error, req, res, next) {
   let errors = [];
   let value = "";
   let type = "";
-  let responseMessage = error.responseMessage || true;
+  let responseMessage = error.responseMessage || false;
 
   if (error instanceof AuthenticationError) {
     errors = [{ type: error.type, message, value: error.value }];

@@ -9,8 +9,18 @@
   "categories": [
     "Themes"
   ],
+  "type": "module",
+  "scripts": {
+    "start": "nodemon 'src/build' --inspect",
+    "build": "node 'src/build'"
+  },
   "contributes": {
     "themes": [
+      {
+        "label": "[ET] Ergonomic Theme Light",
+        "uiTheme": "vs",
+        "path": "./themes/[ET] Ergonomic Theme Light.json"
+      },
       {
         "label": "[ET] Community-Material-Theme-Lighter",
         "uiTheme": "vs",
@@ -37,5 +47,12 @@
         "path": "./themes/[ET] From Settings.json"
       }
     ]
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.15",
+    "prettier": "^2.5.1"
+  },
+  "dependencies": {
+    "strip-json-comments": "^4.0.0"
   }
 }

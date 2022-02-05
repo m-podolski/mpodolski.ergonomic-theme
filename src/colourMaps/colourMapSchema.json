@@ -1,0 +1,36 @@
+{
+  "title": "Colours",
+  "description": "Defines semantic colour scheme. Main purpose is to enable color pickers on arbitrary properties",
+  "type": "object",
+  "properties": {
+    "colorsMap": {
+      "type": "array",
+      "items": { "$ref": "#/$defs/color" }
+    },
+    "tokenColorsMap": {
+      "type": "array",
+      "items": { "$ref": "#/$defs/color" }
+    }
+  },
+  "$defs": {
+    "color": {
+      "type": "object",
+      "properties": {
+        "name": {
+          "type": "string"
+        },
+        "orgValue": {
+          "type": "string",
+          "format": "color"
+        },
+        "newValue": {
+          "type": "string",
+          "format": "color"
+        },
+        "scopes": {
+          "type": "array"
+        }
+      }
+    }
+  }
+}
