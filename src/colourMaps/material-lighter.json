@@ -1,5 +1,6 @@
 {
   "$schema": "colourMapSchema.json",
+  "type": "light",
   "colorsMap": [
     {
       "name": "",
